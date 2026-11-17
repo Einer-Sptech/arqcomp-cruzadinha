@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruzadinha de Arquitetura Computacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cruzadinha - Arquitetura Computacional</h1>
+        <p class="instrucao">Preencha a cruzadinha com os termos técnicos corretos com base nas dicas.</p>
+        <div class="placar">
+            <span id="contadorAcertos">0 de 12 palavras corretas</span>
+        </div>
+        
+        <div class="jogo-container">
+            <div class="tabuleiro" id="tabuleiro">
+                <p>[Aqui ficará a grade de inputs da cruzadinha]</p>
+            </div>
+
+            <div class="pistas-container">
+                <div class="bloco-pistas">
+                    <h3>Horizontais</h3>
+                    <ul>
+                        <li><strong>1.</strong> Subssistema central responsável por buscar instruções e gerenciar o fluxo de execução. (CPU)</li>
+                        <li><strong>2.</strong> Circuito interno dedicado a processar operações matemáticas binárias e avaliações lógicas. (ULA)</li>
+                        <li><strong>3.</strong> Topo da hierarquia de memória; armazenamento temporário de altíssima velocidade na CPU. (REGISTRADORES)</li>
+                        <li><strong>4.</strong> Menor unidade de representação de informação na lógica booleana (0 ou 1). (BIT)</li>
+                        <li><strong>5.</strong> Conjunto de linhas físicas compartilhadas para transporte síncrono de dados e sinais. (BARRAMENTO)</li>
+                        <li><strong>6.</strong> Sistema básico de entrada e saída armazenado em memória não volátil. (BIOS)</li>    
+                    </ul>
+                </div>
+                <div class="bloco-pistas">
+                    <h3>Verticais</h3>
+                    <ul>
+                        <li><strong>7.</strong> Componente que interpreta instruções e gera sinais de controle para o hardware. (UC)</li>
+                        <li><strong>8.</strong> Armazenamento primário volátil que permite acesso direto e não sequencial. (RAM)</li>
+                        <li><strong>9.</strong> Meio não volátil que preserva permanentemente o código de bootstrap inicial. (ROM)</li>
+                        <li><strong>10.</strong> Camada estática intermediária projetada para mitigar o gargalo de velocidade da RAM. (CACHE)</li>
+                        <li><strong>11.</strong> Unidade padrão de capacidade composta por oito dígitos binários. (BYTE)</li>
+                        <li><strong>12.</strong> Sinal de sincronismo que dita o ritmo de execução dos ciclos de clock do processador. (CLOCK)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="acoes">
+            <button id="btnConferir">Conferir Respostas</button>
+            <button id="btnReiniciar">Reiniciar</button>
+            <p id="mensagemFeedback"></p>
+        </div>
+    </div>
+</body>
+</html>
